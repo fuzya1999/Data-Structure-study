@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    //封装队列
+    function Queue() {
+        //属性
+        this.item = []
+        //方法
+        //1.将元素加入队列中
+        Queue.prototype.enqueue = function (element) {
+            this.item.push(element);
+        }
+
+        //2.从队列中删除前端元素
+        Queue.prototype.dequeue = function () {
+            return this.item.shift();
+        }
+
+        //3.查看前端元素
+        Queue.prototype.front = function () {
+            return this.item[0];
+        }
+        //4.查看队列是否为空
+        Queue.prototype.isEmpty = function () {
+            return this.item.length ==0;
+        }
+        //5.查看队列中元素个数
+        Queue.prototype.size = function () {
+            return this.item.length
+        }
+        //6.toString方法
+        Queue.prototype.toString = function () {
+            var nn = '';
+            for (var i=0;i < this.item.length;i++) {
+                nn += this.item[i]+'';
+            }
+            return nn;
+        }
+    }
+    var queue = new Queue();
+
+    queue.enqueue('abc')
+    queue.enqueue('cbs')
+    queue.enqueue('agr')
+    queue.enqueue('gwe')
+    console.log(queue)     //[abc cbs agr gwe]
+
+    queue.dequeue();
+    console.log(queue.dequeue())    //cbs
+    console.log(queue)    //[agr gwe]
+
+    console.log(queue.front())    //cbs
+
+    console.log(queue.isEmpty())  //agr
+
+    console.log(queue.size())     //3
+
+    console.log(queue.toString())     //agrgwe
+
+
+    //面试题：击鼓传花
+    function passGame(nameList, num) {
+        //1.创建一个队列结构
+        var queue = new Queue();
+
+        //2.将所有人依次加入到队列中
+        for (var i = 0; i < nameList.length; i++) {
+                queue.enqueue(nameList[i]);
+        }
+
+        //3.开始数数字
+        while (queue.size() > 1) {
+            //不是num的时候，重新加入到队列的末尾
+            //是num这个数字的时候，将其从队列中删除
+            //3.1.num数字之前的人重新放入到队列的末尾
+            for (var i = 0;i<num-1;i++){
+                queue.enqueue(queue.dequeue());
+            }
+            //3.2.num对应这个人，直接从队列中删除掉
+            queue.dequeue();
+
+        }
+
+        //4.获取剩下的那个人
+        alert(queue.size());
+        console.log(queue.front());
+
+
+
+
+    }
+
+
+    //测试击鼓传花
+    names = ['周震南','麻煜嫣','毛不易','费齐鸣','马伯骞'];
+    passGame(names,3);
+
+
+</script>
+</body>
+</html>

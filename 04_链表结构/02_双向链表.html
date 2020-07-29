@@ -93,7 +93,7 @@
                 this.tail = newNode
             }else{
                 //判断position是否为0
-                if (position = 0) {
+                if (position == 0) {
                     this.head = newNode
                     this.tail.prev = newNode
                     newNode.next = this.tail
@@ -152,7 +152,7 @@
     alert(list.backwardString())
 
     //3
-    list.insert(0,'ppp')
+    list.insert(2,'ppp')
     alert(list)
 
 </script>

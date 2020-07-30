@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4243c543-64ca-4073-835e-001ab9d037c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/05_集合结构/01_封装集合.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_哈希表/01_哈希函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_哈希表/02_哈希表实现.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_哈希表/03_判断质数1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_哈希表/04_判断质数2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_链表结构/02_双向链表.html" beforeDir="false" afterPath="$PROJECT_DIR$/04_链表结构/02_双向链表.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,7 +18,44 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06_哈希表/01_哈希函数.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-14">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/06_哈希表/02_哈希表实现.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2120">
+              <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06_哈希表/03_判断质数1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="22" selection-start-line="22" selection-end-line="26" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06_哈希表/04_判断质数2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="11" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
@@ -32,6 +71,11 @@
         <option value="$PROJECT_DIR$/04_链表结构/01_单向链表.html" />
         <option value="$PROJECT_DIR$/04_链表结构/02_双向链表.html" />
         <option value="$PROJECT_DIR$/05_集合结构/01_封装集合.html" />
+        <option value="$PROJECT_DIR$/06_哈希表/01_哈希函数.html" />
+        <option value="$PROJECT_DIR$/06_哈希表/03_判断质数.html" />
+        <option value="$PROJECT_DIR$/06_哈希表/03_判断质数1.html" />
+        <option value="$PROJECT_DIR$/06_哈希表/04_判断质数2.html" />
+        <option value="$PROJECT_DIR$/06_哈希表/02_哈希表实现.html" />
       </list>
     </option>
   </component>
@@ -84,7 +128,7 @@
       <workItem from="1595654423498" duration="14524000" />
       <workItem from="1595916792449" duration="103000" />
       <workItem from="1596017887632" duration="19176000" />
-      <workItem from="1596088868216" duration="9494000" />
+      <workItem from="1596088868216" duration="18787000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法的学习">
       <created>1595671135839</created>
@@ -107,11 +151,18 @@
       <option name="project" value="LOCAL" />
       <updated>1596041269287</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="数据结构与算法的学习">
+      <created>1596113526237</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596113526237</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43297000" />
+    <option name="totallyTimeSpent" value="52590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -193,6 +244,13 @@
     <entry file="file://$PROJECT_DIR$/05_集合结构">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/05_集合结构/01_封装集合.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="162" column="12" selection-start-line="162" selection-start-column="12" selection-end-line="162" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/02_栈结构/01_栈的封装.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -200,10 +258,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_集合结构/01_封装集合.html">
+    <entry file="file://$PROJECT_DIR$/06_哈希表/01_哈希函数.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="162" column="12" selection-start-line="162" selection-start-column="12" selection-end-line="162" selection-end-column="12" />
+        <state relative-caret-position="-14">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_哈希表/04_判断质数2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="11" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_哈希表/03_判断质数1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" selection-start-line="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_哈希表/02_哈希表实现.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2120">
+          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
         </state>
       </provider>
     </entry>
